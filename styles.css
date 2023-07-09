@@ -2,25 +2,28 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
   /* Global styles */
   body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
+    
   }
   
   .container {
-    max-width: 960px;
+    
     margin: 0 auto;
-    padding: 0 0px;
+    padding: 0;
+    width: 100%;
   }
   
   /* Header styles */
   header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    width: 100%;
   }
   
   .logo {
@@ -30,7 +33,7 @@
   
   .nav-links li {
     display: inline;
-  /*margin-right: 10px;*/
+    margin-right: 10px;
   }
   
   .nav-links li a {
@@ -40,11 +43,13 @@
   
   /* Hero section styles */
   #hero {
-    background-image: url('hero-image.jpg');
+    background-image: url('yetToPut.jpg');
     background-size: cover;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    width: 100%;
+
   }
   
   #hero h2 {
@@ -66,6 +71,8 @@
     background-color: #f5f5f5;
     padding: 100px 0;
     text-align: center;
+    width: 100%;
+
   }
   
   #about h2 {
@@ -77,6 +84,8 @@
   #projects {
     padding: 100px 0;
     text-align: center;
+    width: 100%;
+
   }
   
   .project {
@@ -98,6 +107,8 @@
     color: #fff;
     padding: 100px 0;
     text-align: center;
+    width: 100%;
+
   }
   
   #contact h2 {
@@ -132,6 +143,8 @@
   background-color: #f5f5f5;
   padding: 100px 0;
   text-align: center;
+  width: 100%;
+
 }
 
 #education h2 {
@@ -151,6 +164,8 @@
   /* Footer styles */
   footer {
     background-color: #333;
+    width: 100%;
+
     color: #fff;
     padding: 20px 0;
     text-align: center;
