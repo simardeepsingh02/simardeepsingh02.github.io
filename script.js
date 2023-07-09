@@ -18,8 +18,8 @@ function sendEmail(event) {
     var message = form.elements["message"].value;
   
     var subject = "New Message from My Portfolio";
-    var body = "Name: " + name + "/n";
-    body += "Email: " + email + "/n";
+    var body = "Name: " + name + "%0D%0A";
+    body += "Email: " + email + "%0D%0A";
     body += "Message: " + message;
   
     var mailtoLink = "mailto:iamsimar12@gmail.com" +
