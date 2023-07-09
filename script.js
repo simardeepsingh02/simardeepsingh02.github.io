@@ -10,3 +10,22 @@ function smoothScroll(event) {
   const targetElement = document.querySelector(targetId);
   targetElement.scrollIntoView({ behavior: 'smooth' });
 }
+function sendEmail(event) {
+    event.preventDefault();
+  
+    var form = document.getElementById("contact-form");
+    var name = form.elements["name"].value;
+    var email = form.elements["email"].value;
+    var message = form.elements["message"].value;
+  
+    var subject = "New Message from Your Portfolio";
+    var body = "Name: " + name + "%0D%0A";
+    body += "Email: " + email + "%0D%0A";
+    body += "Message: " + message;
+  
+    var mailtoLink = "mailto:iamsimar12@gmail.com" +
+      "?subject=" + encodeURIComponent(subject) +
+      "&body=" + encodeURIComponent(body);
+  
+    window.location.href = mailtoLink;
+  }
