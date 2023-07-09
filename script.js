@@ -12,7 +12,6 @@ function smoothScroll(event) {
 }
 function sendEmail(event) {
     event.preventDefault();
-  
     var form = document.getElementById("contact-form");
     var name = form.elements["name"].value;
     var email = form.elements["email"].value;
