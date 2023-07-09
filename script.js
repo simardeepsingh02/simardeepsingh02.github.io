@@ -17,7 +17,7 @@ function sendEmail(event) {
     var email = form.elements["email"].value;
     var message = form.elements["message"].value;
   
-    var subject = "New Message from Your Portfolio";
+    var subject = "New Message from My Portfolio";
     var body = "Name: " + name + "%0D%0A";
     body += "Email: " + email + "%0D%0A";
     body += "Message: " + message;
