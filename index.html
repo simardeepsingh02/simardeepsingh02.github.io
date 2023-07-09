@@ -1,1 +1,88 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hello, I'm Simardeep Singh, a web developer.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a .NET full stack developer, versatile professional
+         skilled in both front-end and back-end development using Microsoft's .NET Core. I have a solid foundation in HTML, CSS, JavaScript, C#, Entity Framework Core, ASP.NET and database technologies. I am eager to learn and collaborate, with a strong problem-solving mindset and have the ability to adapt to changing requirements.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Travelers| Web App<br>
+            Travelers App that enables the users to online Book the
+            package for vacations and Payment module. Through this site
+            the user experience to book hotels in vacation time is very
+            seamless<br>
+            Implemented Web application using MS SQL, Entity Framework
+            Core and ASP.NET<br>
+            Worked on UI/UX using Typescript, Angular ,Bootstrap, Html
+            ,CSS</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Foodies| Web App<br>
+            Foodies App allows user to order food online<br>
+            Implemented Web application using My SQL, Spring Boot<br>
+            Worked on UI/UX using JavaScript ,Typescript , Angular<br>
+            ,Bootstrap ,Html ,CSS</p>
+      </div>
+      <div class="project">
+        <h3>Project 3</h3>
+        <p>Grocer| Web App
+            Grocer store that allows online ordering, or a standalone ecommerce service that includes grocery items<br>
+            Implemented Web application using MS SQL, Entity Framework
+            Core and ASP.NET<br>
+            Worked on UI/UX using Typescript, Angular ,Bootstrap, Html
+            ,CSS
+            </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="1" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Simardeep Singh. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
