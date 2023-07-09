@@ -1,3 +1,12 @@
-// JavaScript code can be added here to enhance interactivity and functionality.
-// For example, you can use JavaScript to handle form submission or add dynamic behavior to your website.
-// This is a basic template and can be expanded upon based on your requirements.
+// Add smooth scrolling to anchor links
+const navLinks = document.querySelectorAll('.nav-links a');
+for (const link of navLinks) {
+  link.addEventListener('click', smoothScroll);
+}
+
+function smoothScroll(event) {
+  event.preventDefault();
+  const targetId = event.target.getAttribute('href');
+  const targetElement = document.querySelector(targetId);
+  targetElement.scrollIntoView({ behavior: 'smooth' });
+}
