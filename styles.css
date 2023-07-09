@@ -1,150 +1,138 @@
 /* Reset default margin and padding */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Global styles */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    
-  }
-  
-  .container {
-    
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #333;
-    color: #fff;
-    width: 100%;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .nav-links li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  .nav-links li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Hero section styles */
-  #hero {
-    background-image: url('yetToPut.jpg');
-    background-size: cover;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  }
-  
-  #hero h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-  
-  .cta-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-  }
-  
-  /* About section styles */
-  #about {
-    background-color: #f5f5f5;
-    padding: 100px 0;
-    text-align: center;
-    width: 100%;
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
 
-  }
-  
-  #about h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-  
-  /* Projects section styles */
-  #projects {
-    padding: 100px 0;
-    text-align: center;
-    width: 100%;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px; /* Added left and right padding for mobile devices */
+}
 
-  }
-  
-  .project {
-    margin-bottom: 40px;
-  }
-  
-  .project img {
-    max-width: 100%;
-  }
-  
-  .project h3 {
-    font-size: 24px;
-    margin: 20px 0;
-  }
-  
-  /* Contact section styles */
-  #contact {
-    background-color: #333;
-    color: #fff;
-    padding: 100px 0;
-    text-align: center;
-    width: 100%;
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+}
 
-  }
-  
-  #contact h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-  
-  #contact-form input,
-  #contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    border: none;
-  }
-  
-  #contact-form textarea {
-    height: 120px;
-  }
-  
-  #contact-form button {
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #333;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
 
+.nav-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+#hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* About section styles */
+#about {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Projects section styles */
+#projects {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #333;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+#contact-form textarea {
+  height: 120px;
+}
+
+#contact-form button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Education section styles */
 #education {
   background-color: #f5f5f5;
   padding: 100px 0;
   text-align: center;
-  width: 100%;
-
 }
 
 #education h2 {
@@ -161,13 +149,30 @@
   margin: 10px 0;
 }
 
-  /* Footer styles */
-  footer {
-    background-color: #333;
-    width: 100%;
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
 
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+/* Media queries for phone and PC */
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 10px; /* Adjusted left and right padding for smaller screens */
   }
-  
+
+  .nav-links li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .nav-links li a {
+    display: block;
+  }
+
+  .project {
+    text-align: left;
+  }
+}
